@@ -1,6 +1,6 @@
 {
 	"name": "mime.json",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "JSON list of extensions with their mime types",
 	"keywords": [
 		"mime"
