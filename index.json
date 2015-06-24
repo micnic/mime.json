@@ -609,6 +609,7 @@
 	"pcurl": "application/vnd.curl.pcurl",
 	"pcx": "image/x-pcx",
 	"pdb": "application/x-pilot",
+	"pde": "text/x-processing",
 	"pdf": "application/pdf",
 	"pem": "application/x-x509-ca-cert",
 	"pfa": "application/x-font-type1",
