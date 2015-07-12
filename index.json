@@ -620,6 +620,7 @@
 	"pgm": "image/x-portable-graymap",
 	"pgn": "application/x-chess-pgn",
 	"pgp": "application/pgp-encrypted",
+	"php": "application/x-httpd-php",
 	"pic": "image/x-pict",
 	"pkg": "application/octet-stream",
 	"pki": "application/pkixcmp",
