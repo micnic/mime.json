@@ -625,6 +625,7 @@
 	"pkg": "application/octet-stream",
 	"pki": "application/pkixcmp",
 	"pkipath": "application/pkix-pkipath",
+	"pkpass": "application/vnd.apple.pkpass",
 	"pl": "application/x-perl",
 	"plb": "application/vnd.3gpp.pic-bw-large",
 	"plc": "application/vnd.mobius.plc",
