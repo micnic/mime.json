@@ -1025,6 +1025,7 @@
 	"yang": "application/yang",
 	"yin": "application/yin+xml",
 	"yml": "text/yaml",
+	"ymp": "text/x-suse-ymp",
 	"z1": "application/x-zmachine",
 	"z2": "application/x-zmachine",
 	"z3": "application/x-zmachine",
