@@ -699,6 +699,7 @@
 	"rms": "application/vnd.jcp.javame.midlet-rms",
 	"rmvb": "application/vnd.rn-realmedia-vbr",
 	"rnc": "application/relax-ng-compact-syntax",
+	"rng": "application/xml",
 	"roa": "application/rpki-roa",
 	"roff": "text/troff",
 	"rp9": "application/vnd.cloanto.rp9",
