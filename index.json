@@ -276,6 +276,7 @@
 	"gdl": "model/vnd.gdl",
 	"gdoc": "application/vnd.google-apps.document",
 	"geo": "application/vnd.dynageo",
+	"geojson": "application/geo+json",
 	"gex": "application/vnd.geometry-explorer",
 	"ggb": "application/vnd.geogebra.file",
 	"ggt": "application/vnd.geogebra.tool",
