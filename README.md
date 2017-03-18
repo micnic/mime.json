@@ -5,7 +5,7 @@ This is the list of file extensions with their mime types, nothing more. The lis
 ## Usage
 
 ```js
-var mime = require('mime.json');
+const mime = require('mime.json');
 
 mime['js']; // => 'application/javascript'
 mime.json;  // => 'application/json'
