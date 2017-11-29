@@ -319,7 +319,7 @@
 	"hdd": "application/x-virtualbox-hdd",
 	"hdf": "application/x-hdf",
 	"hh": "text/x-c",
-	"hjson": "text/hjson",
+	"hjson": "application/hjson",
 	"hlp": "application/winhlp",
 	"hpgl": "application/vnd.hp-hpgl",
 	"hpid": "application/vnd.hp-hpid",
