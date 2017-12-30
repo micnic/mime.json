@@ -766,6 +766,7 @@
 	"sgml": "text/sgml",
 	"sh": "application/x-sh",
 	"shar": "application/x-shar",
+	"shex": "text/shex",
 	"shf": "application/shf+xml",
 	"shtml": "text/html",
 	"sid": "image/x-mrsid-image",
