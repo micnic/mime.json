@@ -1,19 +1,19 @@
 'use strict';
 
-var fs = require('fs'),
-	https = require('https');
+const fs = require('fs');
+const https = require('https');
 
 var src = 'https://raw.githubusercontent.com/jshttp/mime-db/master/db.json';
 
-function prepareResult(json) {
+const prepareResult = (json) => {
 
-	var list = {},
-		result = {};
+	const list = {};
+	const result = {};
 
-	Object.keys(json).forEach(function (key) {
+	Object.keys(json).forEach((key) => {
 		if (json[key].extensions) {
 			if (Array.isArray(json[key].extensions)) {
-				json[key].extensions.forEach(function (extension) {
+				json[key].extensions.forEach((extension) => {
 					list[extension] = key;
 				});
 			} else {
@@ -22,15 +22,15 @@ function prepareResult(json) {
 		}
 	});
 
-	Object.keys(list).sort().forEach(function (key) {
+	Object.keys(list).sort().forEach((key) => {
 		result[key] = list[key];
 	});
 
 	return result;
-}
+};
 
-function writeResult(data) {
-	fs.writeFile(__dirname + '/index.json', data, function (error) {
+const writeResult = (data) => {
+	fs.writeFile(`${__dirname}/index.json`, data, (error) => {
 		if (error) {
 			console.error('Can not write result json');
 			console.error(error.stack);
@@ -38,23 +38,23 @@ function writeResult(data) {
 			console.log('Successfully created mime.json');
 		}
 	});
-}
+};
 
-https.get(src).on('error', function (error) {
+https.get(src).on('error', (error) => {
 	console.error('Can not get source json');
 	console.error(error.stack);
-}).on('response', function (response) {
+}).on('response', (response) => {
 
-	var body = '';
+	let body = '';
 
-	response.on('readable', function () {
+	response.on('readable', () => {
 
-		var data = this.read() || Buffer(0);
+		const data = response.read() || Buffer(0);
 
 		body += String(data);
-	}).on('end', function () {
+	}).on('end', () => {
 
-		var json = null;
+		let json = null;
 
 		try {
 			json = JSON.parse(body);
