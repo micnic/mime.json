@@ -1,6 +1,6 @@
 {
 	"name": "mime.json",
-	"version": "1.0.18",
+	"version": "1.1.0",
 	"description": "JSON list of extensions with their mime types",
 	"keywords": [
 		"mime"
@@ -9,7 +9,7 @@
 		"url": "https://github.com/micnic/mime.json/issues",
 		"email": "micnic90@gmail.com"
 	},
-	"license": "GPL-3.0",
+	"license": "MIT",
 	"author": {
 		"name": "Micleușanu Nicu",
 		"email": "micnic90@gmail.com",
