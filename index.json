@@ -606,6 +606,7 @@
 	"ott": "application/vnd.oasis.opendocument.text-template",
 	"ova": "application/x-virtualbox-ova",
 	"ovf": "application/x-virtualbox-ovf",
+	"owl": "application/rdf+xml",
 	"oxps": "application/oxps",
 	"oxt": "application/vnd.openofficeorg.extension",
 	"p": "text/x-pascal",
