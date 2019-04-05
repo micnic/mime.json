@@ -3,7 +3,7 @@
 const fs = require('fs');
 const https = require('https');
 
-var src = 'https://raw.githubusercontent.com/jshttp/mime-db/master/db.json';
+const src = 'https://raw.githubusercontent.com/jshttp/mime-db/master/db.json';
 
 const prepareResult = (json) => {
 
