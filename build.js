@@ -17,7 +17,7 @@ const prepareResult = (json) => {
 					list[extension] = key;
 				});
 			} else {
-				console.error('Extensions are not inluded in array');
+				console.error('Extensions are not included in array');
 			}
 		}
 	});

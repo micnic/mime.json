@@ -16,8 +16,5 @@
 		"url": "https://github.com/micnic"
 	},
 	"main": "index",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/micnic/mime.json"
-	}
+	"repository": "github:micnic/mime.json"
 }
