@@ -1,6 +1,6 @@
 {
 	"name": "mime.json",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"description": "JSON list of extensions with their mime types",
 	"keywords": [
 		"mime"
@@ -16,5 +16,8 @@
 		"url": "https://github.com/micnic"
 	},
 	"main": "index",
-	"repository": "github:micnic/mime.json"
+	"repository": "github:micnic/mime.json",
+	"files": [
+		"index.json"
+	]
 }
