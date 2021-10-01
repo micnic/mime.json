@@ -15,6 +15,7 @@
 		"email": "micnic90@gmail.com",
 		"url": "https://github.com/micnic"
 	},
+	"types": "index.d.ts",
 	"main": "index.json",
 	"repository": "github:micnic/mime.json",
 	"files": [
