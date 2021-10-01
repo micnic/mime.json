@@ -36,9 +36,26 @@ const writeResult = (data) => {
 			console.error(error.stack);
 		} else {
 			console.log('Successfully created mime.json');
+			writeTypes(data);
 		}
 	});
 };
+
+const writeTypes = (data) => {
+  const fileContent = `declare module 'mime.json' {
+  const mime: ${JSON.stringify(JSON.parse(data), null, '    ')};
+  export default mime;
+}
+`;
+  fs.writeFile(`${__dirname}/index.d.ts`, fileContent, (error) => {
+    if (error) {
+      console.error('Can not write types');
+      console.error(error.stack);
+    } else {
+      console.log('Successfully created index.d.ts');
+    }
+  });
+}
 
 https.get(src).on('error', (error) => {
 	console.error('Can not get source json');
